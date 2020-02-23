@@ -1,0 +1,45 @@
+.menu {
+  max-width: 400px;
+  margin: 50px auto;
+  border: 3px solid blueviolet;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.menu__title {
+  font-size: 32px;
+  margin: 0;
+}
+
+.menu__item {
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.menu__item-isActive {
+  font-weight: bold;
+}
+
+.menu__new-item {
+  height: 25px;
+  border: 2px solid rgb(191, 144, 235);
+  border-radius: 10px;
+  padding: 5px;
+  outline: none;
+}
+
+.menu__button {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(189, 133, 241);
+  border: 2px solid rgb(191, 144, 235);
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+}
+
+.menu__button:active {
+  transform: scale(0.9);
+}
