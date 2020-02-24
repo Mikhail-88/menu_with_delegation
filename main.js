@@ -23,6 +23,4 @@ function initMenu(element) {
   });
 }
 
-initMenu(
-  document.querySelector('.menu')
-);
+initMenu(document.querySelector('.menu'));
